@@ -1,5 +1,5 @@
-# Math typesetting using KaTex
-Forked from [plugin-katex](https://github.com/Renovamen/gitbook-plugin-katex).
+# Math typesetting using KaTeX
+Forked from [Renovamen/plugin-katex](https://github.com/Renovamen/gitbook-plugin-katex).
 
 &nbsp;
 ## Configuration
@@ -10,16 +10,6 @@ Use it for your book, by adding to your book.json:
     "plugins": ["katex@git+https://github.com/YutaroIshihama/honkit-plugin-katex.git"]
 }
 ```
-
-or
-
-```json
-{
-    "plugins": ["katex@git+https://gitee.com/YutaroIshihama/honkit-plugin-katex.git"]
-}
-```
-
-then run `gitbook install`.
 
 &nbsp;
 ## Usage

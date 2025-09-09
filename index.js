@@ -18,8 +18,8 @@ module.exports = {
         math: {
             shortcuts: {
                 parsers: ["markdown", "asciidoc", "restructuredtext"],
-                start: "$$",
-                end: "$$"
+                start: "$$$$",
+                end: "$$$$"
             },
             process: function(blk) {
                 var tex = blk.body;
@@ -33,8 +33,8 @@ module.exports = {
         math_inline: {
             shortcuts: {
                 parsers: ["markdown", "asciidoc", "restructuredtext"],
-                start: "$",
-                end: "$"
+                start: "$$",
+                end: "$$"
             },
             process: function(blk) {
                 var tex = blk.body;
